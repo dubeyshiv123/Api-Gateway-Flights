@@ -1,3 +1,8 @@
+/*
+To create this file run the below command in the terminal 
+inside the /src directory
+npx sequelize seed:generate --name add-roles
+*/
 "use strict";
 
 /** @type {import('sequelize-cli').Migration} */

@@ -1,3 +1,4 @@
+// This is a Through/Junction Table
 "use strict";
 const { Model } = require("sequelize");
 module.exports = (sequelize, DataTypes) => {

@@ -1,12 +1,12 @@
 {
-  "name": "base_node_js_project_template",
+  "name": "Flights Api Gateway Service",
   "version": "1.0.0",
-  "description": "A basic started boilerplate project for node",
+  "description": "Authentication and Authorization API Gateway",
   "main": "index.js",
   "scripts": {
     "dev": "npx nodemon src/index.js"
   },
-  "author": "Sahil",
+  "author": "Sahil Dubey",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",

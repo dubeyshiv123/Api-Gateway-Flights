@@ -4,8 +4,9 @@ const { UserService } = require("../services");
 const { SuccessResponse, ErrorResponse } = require("../utils/common");
 
 /**
- * POST : /signup
- * req-body {email: 'a@b.com', password: '1234'}
+ * method: POST request
+ * URL: /signup
+ * data: req.body: {email: 'a@b.com', password: '1234'}
  */
 async function signup(req, res) {
   try {

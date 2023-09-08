@@ -13,10 +13,12 @@ router.post(
   AuthRequestMiddlewares.validateAuthRequest,
   UserController.signin
 );
+// If u are a logged-in admin then only u can add a role to a user - Authorization
 router.post(
   "/role",
   AuthRequestMiddlewares.checkAuth,
   AuthRequestMiddlewares.isAdmin,
+  AuthRequestMiddlewares.validateAddRoleRequest,
   UserController.addRoleToUser
 );
 
